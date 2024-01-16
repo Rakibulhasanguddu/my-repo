@@ -546,10 +546,10 @@ background: rgba(19, 19, 24, 0.05);
     
 
     
-    .header-content{
+    .container{
     
-         width:500px; 
-        margin:10px auto;
+         width:50%px; 
+        margin:0px 15px;
         
 
     }
@@ -589,17 +589,24 @@ background: rgba(19, 19, 24, 0.05);
 select{
     width: 300px;}
     .tour-pic{
-        width: 500px;
+        width: 450px;
     }
     .poular-tour{
         flex-direction: column;
     }
     .tour-discript{
-        width: 500px;}
+        width: 400px;}
 
+        .tour-last-dcript{
+            width: 400px;
+        }
+ 
+        .ol{
+            list-style: none;
+        }
 .place-discript{
     margin-left: 5px;
-    width: 500px;
+    width: 450px;
 }
 .place-image-pro{
     display: grid;
@@ -616,59 +623,69 @@ select{
 }
 
 .Srilanka,.Maldives,.Indonesia,.america,.kashmir, .Bangladesh,.Bandarban{
-    width: 550px;
+    width: 450px;
     height: 280px;
 }
 .test,.test1,.test3{
-    left: 200px;
+    left: 160px;
 }
  
 .test4, .test5{
-    left: 180px;
+    left: 140px;
 }
 
+.pic{
+    width: 450px;
+}
+.news-img{
+    width: 450px;
+}
 .chose-discript{
-    width: 500px;
+    width: 450px;
 }
 
 .hotel{
     flex-direction: column;
-    width: 500px;
+    width: 450px;
 }
 .hotel2{
     margin-left: 0px;
-    width: 500px;
+    width: 450px;
 }
 .hotel-class{
-    width: 500px;
+    width: 450px;
     height: 285px;}
+ 
+    .hotel-discript{
+width: 400px;
+    }
 
     .hotel-class2{
-        width: 500px;
+        width: 400px;
         height: 285px;}
 
      .hotel-class{
-            width: 500px;
+            width: 400px;
         }
         .discount-dscript{
-            width: 500px;
+            width: 450px;
         }
         .discount-offer{
             width: 400px;
-            margin-left: 50px;
-            height: 350px;
+            margin: auto;
+            height: 400px;
             
         }
         .dicount-top{
-            width: 500px;
+            width: 450px;
         }
         .dicount-top1{
-            width: 500px;
+            width: 450px;
         }
         .discount-offer1{
             width: 400px;
-            margin-left: 50px;
-            height: 350px;
+            margin: auto;
+            height: 400px;
 }
 .seemore{
     margin-left: 0px;
@@ -692,21 +709,19 @@ select{
 }
 
 .news-img{
-    width: 500px;
+    width: 450px;
 }
 
 .footer-content{
     flex-direction: column;
 }
 .footer{
-    width: 500px;
-    margin-left: 40px;
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .footer-discript{
-    width: 500px;
+    width: 450px;
     margin-left: 0px;
 }
-
-
-
 }
