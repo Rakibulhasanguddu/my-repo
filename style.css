@@ -143,6 +143,8 @@ select{
 li{
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 20px;
+    list-style: none;
 }
 .tour-last-dcript{
     font-size: 20px;
@@ -550,19 +552,29 @@ background: rgba(19, 19, 24, 0.05);
     
          width:50%px; 
         margin:0px 15px;
-        
-
     }
+
+.nav{
+    display: none;
+    
+}
+.header-content{
+ 
+ background-image: calc(50%) ;
+}
+
     .header-title-one{
         font-size: 40px;
-        text-align: center;
         padding-top: 40px;
+        width: 400px;
+        padding-left: 50px;
+    
     }
     .header-discript{
         color: #FFF;
         font-size: 20px;
         text-align: center;
-         width: 450px;
+         width: 400px;
          padding-left: 50px;
          padding-bottom: 10px;
 
