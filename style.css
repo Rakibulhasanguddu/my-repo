@@ -818,9 +818,10 @@ input{
     width: 270px;
 }
 .extra-box{
-    width: 120px;
+    /* width: 120px;
    height: 50px;
-   position:relative;
+   position:relative; */
+   display: none;
 }
 
 .extra-box{
