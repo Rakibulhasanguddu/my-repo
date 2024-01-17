@@ -720,7 +720,7 @@ select{
 .hotel{
     flex-direction: column;
     width: 300px;
-    margin-left: 20px;
+    margin-left: 10px;
    
 }
 .hotel2{
@@ -804,17 +804,28 @@ select{
     .news{
         flex-direction: column;
 }
-
+.news-content{
+    width: 350px;
+}
+input{
+    width: 250px;
+}
 .news-img{
     width: 350px;
 }
-
+.button4{
+    width: 270px;
+}
 .extra-box{
     width: 120px;
    height: 50px;
    position:relative;
+}
 
-  
+.extra-box{
+    width: 200px;
+    position: relative;
+
 }
 .extra-text{
     font-size: 16px; 
