@@ -583,9 +583,8 @@ transform: rotate(-19.628deg);
 
     
     .container{
-    
-         width:50%px; 
-        margin:0px 15px;
+     max-width: 400px;
+         margin:0px 20px; 
     }
 
 .nav{
@@ -598,22 +597,23 @@ transform: rotate(-19.628deg);
     margin-left: 15px;
 }
 .header-content{
- width: 450px;
-
+ width: 350px;
+background-position: center;
 }
 
     .header-title-one{
-        font-size: 40px;
-        padding-top: 40px;
-        width: 400px;
+        font-size: 30px;
+        padding-top: 30px;
+        width: 250px;
         padding-left: 50px;
     
     }
     .header-discript{
         color: #FFF;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
-         width: 400px;
+         width: 250px;
+         padding-top: 10px;
          padding-left: 50px;
          padding-bottom: 10px;
 
@@ -621,43 +621,59 @@ transform: rotate(-19.628deg);
 .input{
 
    
-  height: 300px;
-  width: 310px;
+  height: 250px;
+  width: 200px;
   border-radius: 10px;
   margin: 10px 60px;
   display: grid;
   gap: 5px;
 }
 .button{
-    width: 300px;
+    width: 200px;
 
 }
 .button1{
-    width: 300px;
+    width: 200px;
 
 }
 
 select{
-    width: 300px;}
+    width: 200px;}
     .tour-pic{
-        width: 450px;
+        width: 350px;
     }
     .poular-tour{
         flex-direction: column;
     }
+    .tour-title{
+        font-size: 30px;
+        width: 300px;
+        
+        
+    }
     .tour-discript{
-        width: 400px;}
+       
+        width: 300px;
+       
+    }
+
+    .ol{
+        list-style: none;
+        
+    } 
 
         .tour-last-dcript{
-            width: 400px;
+            width: 250px;
         }
- 
-        .ol{
-            list-style: none;
-        }
+          
+.place-title {
+  font-size: 25px;
+  width: 300px;
+  margin-left: 30px;
+}
 .place-discript{
-    margin-left: 5px;
-    width: 450px;
+    margin-left: 30px;
+    width: 300px;
 }
 .place-image-pro{
     display: grid;
@@ -674,69 +690,94 @@ select{
 }
 
 .Srilanka,.Maldives,.Indonesia,.america,.kashmir, .Bangladesh,.Bandarban{
-    width: 450px;
+    width: 350px;
     height: 280px;
 }
 .test,.test1,.test3{
-    left: 160px;
+    left: 90px;
 }
  
 .test4, .test5{
-    left: 140px;
+    left: 80px;
 }
-
+.test2{
+    left: 40px;
+}
 .pic{
-    width: 450px;
+    width: 350px;
 }
 .news-img{
-    width: 450px;
+    width: 350px;
+}
+
+.chose-title{
+    font-size: 30px;
 }
 .chose-discript{
-    width: 450px;
+    width: 250px;
 }
 
 .hotel{
     flex-direction: column;
-    width: 450px;
+    width: 300px;
+    margin-left: 20px;
+   
 }
 .hotel2{
-    margin-left: 0px;
-    width: 450px;
+    margin-left: 30px;
+    width: 300px;
 }
 .hotel-class{
-    width: 450px;
-    height: 285px;}
+    width: 300px;
+    height: 260px;}
  
     .hotel-discript{
-width: 400px;
+    width: 300px;
     }
 
     .hotel-class2{
-        width: 400px;
+        width: 300px;
         height: 285px;}
 
      .hotel-class{
-            width: 400px;
+            width: 300px;
+        }
+        
+       .Deals-prize{
+        margin-top: 20px;
+       }
+    
+       .deals-discript {
+       padding-left: 10px;
+       }
+       .discount-content{
+        padding:5px;
+        margin: 0px;
+       }
+       
+        .discount-title{
+            font-size: 30px;
         }
         .discount-dscript{
-            width: 450px;
+            width: 300px;
+    
         }
         .discount-offer{
-            width: 400px;
+            width: 300px;
             margin: auto;
-            height: 400px;
+            height: 300px;
             
         }
         .dicount-top{
-            width: 450px;
+            width: 350px;
         }
         .dicount-top1{
-            width: 450px;
+            width: 350px;
         }
         .discount-offer1{
-            width: 400px;
+            width: 300px;
             margin: auto;
-            height: 400px;
+            height: 300px;
 }
 .seemore{
     margin-left: 0px;
@@ -744,23 +785,28 @@ width: 400px;
 .place2{
     flex-direction: column;
 }
+.place-title2{
+ font-size: 25px;
+ width: 300px;
+ 
+}
 .place-discript2{
-    width: 450px;
+    width: 300px;
 }
 
  li{
-    width: 450px;
+    width: 350px;
  }
  .videoos{
-    height: 400px;
-    width: 450px;}
+    height: 300px;
+    width: 350px;}
 
     .news{
         flex-direction: column;
 }
 
 .news-img{
-    width: 450px;
+    width: 350px;
 }
 
 .extra-box{
@@ -777,12 +823,13 @@ width: 400px;
     flex-direction: column;
 }
 .footer{
-    width: 450px;
+    width: 350px;
     margin-left: 10px;
     margin-top: 10px;
 }
 .footer-discript{
-    width: 450px;
+    width: 350px;
     margin-left: 0px;
 }
+
 }
