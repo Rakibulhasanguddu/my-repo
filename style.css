@@ -584,7 +584,7 @@ transform: rotate(-19.628deg);
     
     .container{
      max-width: 400px;
-         margin:0px 20px; 
+         margin:20px 20px; 
     }
 
 .nav{
@@ -724,7 +724,7 @@ select{
    
 }
 .hotel2{
-    margin-left: 30px;
+    margin-left: 10px;
     width: 300px;
 }
 .hotel-class{
@@ -770,6 +770,7 @@ select{
         }
         .dicount-top{
             width: 350px;
+    
         }
         .dicount-top1{
             width: 350px;
